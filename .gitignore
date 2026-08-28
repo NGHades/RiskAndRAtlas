@@ -1,0 +1,25 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables & API keys (Never commit these!)
+.env
+.env.local
+
+# Output files & local data caches
+*.html
+*.geojson
+*.json
+data_sample.json
+api_keys.json
+
+# IDE & OS files
+.DS_Store
+.vscode/
+.idea/
